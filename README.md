@@ -72,11 +72,11 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Mark yegon**
 
-- GitHub: [@githubhandle](https://github.com/)
+- GitHub: [@githubhandle](https://github.com/MarkYegon7)
 - Twitter: [@twitterhandle](https://twitter.com/)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/)
+- Gmail: [Gmail](markyegonk@gmail.com)
 
-![Mark GitHub stats](https://github-readme-stats.vercel.app/api?username=bruk19&count_private=true&theme=dark&show_icons=true)
+![Mark GitHub stats](https://github-readme-stats.vercel.app/api?username=MarkYegon7&count_private=true&theme=dark&show_icons=true)
 
 
 ## 🤝 Contributing
