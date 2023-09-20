@@ -8,6 +8,8 @@ Writing documentation is a crucial part of your work as a professional software 
 You should modify this file to match your project and remove sections that don't apply.
 
 REQUIRED SECTIONS:
+
+
 - Table of Contents
 - About the Project
   - Built With
