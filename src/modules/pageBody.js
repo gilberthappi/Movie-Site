@@ -65,7 +65,6 @@ const postComment = async (itemId) => {
   }
   return false;
 };
-
 const closePopupModal = () => {
   const closeIcon = document.querySelector('#close');
   closeIcon.addEventListener('click', (e) => {
