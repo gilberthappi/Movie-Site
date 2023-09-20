@@ -10,63 +10,6 @@ let currentValue = 0;
 const appId = 'jQcwh1wRBsAT8XgABb4X';
 const invUrl = `https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/${appId}/comments`;
 
-const fetchComments = async (itemId) => {
-  try {
-    const comments = await fetch(`${invUrl}?item_id=${itemId}`);
-    const data = await comments.json();
-    const commentHead = document.querySelector('.comm-header');
-    const commentList = document.querySelector('.comment-list');
-    if (data.length > 0) {
-      commentHead.innerHTML = `Comments(${data.length})`;
-      commentList.innerHTML = '';
-      data.forEach((comm) => {
-        const commentItem = `        
-        <p>${comm.creation_date} ${comm.username}: ${comm.comment}</p>
-      `;
-        commentList.innerHTML += commentItem;
-      });
-    } else {
-      commentHead.innerHTML = 'Comments(0)';
-      const noComment = `
-      <p>No comment on this post</p>
-      `;
-      commentList.innerHTML = noComment;
-    }
-  } catch (err) {
-    throw new Error('Request error: ', err);
-  }
-};
-
-const postComment = async (itemId) => {
-  const username = document.querySelector('.username');
-  const comment = document.querySelector('.usermassage');
-
-  if (username.value !== '' || comment.value !== '') {
-    try {
-      const response = await fetch(invUrl, {
-        method: 'POST',
-        headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({
-          item_id: itemId,
-          username: username.value,
-          comment: comment.value,
-        }),
-      });
-      const data = response.text();
-      if (response.ok) {
-        username.value = '';
-        comment.value = '';
-        fetchComments(itemId);
-        return data;
-      }
-    } catch (err) {
-      throw new Error('Request error: ', err);
-    }
-    return true;
-  }
-  return false;
-};
-
 const closePopupModal = () => {
   const closeIcon = document.querySelector('#close');
   closeIcon.addEventListener('click', (e) => {
