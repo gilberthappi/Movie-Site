@@ -23,7 +23,7 @@
 
 ## Live Demo (not avialable)
 
-Click [Here](https://chrissiku.github.io/capstone_project_two/dist
+Click [Here](https://gilberthappi.github.io/
 ) To open the live demo
 
 ## Getting Started
