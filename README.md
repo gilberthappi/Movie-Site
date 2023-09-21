@@ -23,8 +23,7 @@
 
 ## Live Demo (not avialable)
 
-Click [Here]([https://gilberthappi.github.io/](https://gilberthappi.github.io/Movie-Site/dist/)
-) To open the live demo
+Click [Here]([https://gilberthappi.github.io/Movie-Site/dist])To open the live demo
 
 ## Getting Started
 
