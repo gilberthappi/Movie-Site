@@ -32,7 +32,7 @@ header a.logo {
   text-align: center;
   font-size: 30px;
   font-weight: 900;
-  background: hsl(242deg 88.4% 56.3% / 87%);
+  background: lightgrey;
   color: #fff;
   padding: 20px;
   border-radius: 50px 0 50px 0;

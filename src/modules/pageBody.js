@@ -9,6 +9,7 @@ let currentValue = 0;
 
 const appId = 'jQcwh1wRBsAT8XgABb4X';
 const invUrl = `https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/${appId}/comments`;
+
 const fetchComments = async (itemId) => {
   try {
     const comments = await fetch(`${invUrl}?item_id=${itemId}`);
@@ -65,6 +66,7 @@ const postComment = async (itemId) => {
   }
   return false;
 };
+
 const closePopupModal = () => {
   const closeIcon = document.querySelector('#close');
   closeIcon.addEventListener('click', (e) => {
