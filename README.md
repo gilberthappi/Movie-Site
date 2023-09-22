@@ -79,7 +79,9 @@ To get a local copy up and running follow these simple example steps.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Some future features to be added soon
+> Add Reservation
+>Add Online play mode
+>Add Night/Day mode
 
 - [ ] **Sign up online**
 - [ ] **Newsletter Email**
