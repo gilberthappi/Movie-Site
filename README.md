@@ -77,6 +77,16 @@ To get a local copy up and running follow these simple example steps.
 
 ![Mark GitHub stats](https://github-readme-stats.vercel.app/api?username=MarkYegon7&count_private=true&theme=dark&show_icons=true)
 
+## 🔭 Future Features <a name="future-features"></a>
+
+> Some future features to be added soon
+
+- [ ] **Sign up online**
+- [ ] **Newsletter Email**
+- [ ] **Payment methods**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 🤝 Contributing
 
