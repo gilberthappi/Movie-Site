@@ -21,7 +21,7 @@
 - Library : `Jest` 
 - Technologies used : Github, Git and Linters
 
-## Live Demo (not avialable)
+## Live Demo
 
 https://gilberthappi.github.io/Movie-Site/dist
 
@@ -65,7 +65,7 @@ To get a local copy up and running follow these simple example steps.
 
 - GitHub: [@githubhandle](https://github.com/gilberthappi)
 - Twitter: [@twitterhandle](https://twitter.com/dushimimanagil3)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/chris-siku-4bb53b232/)
+- Gmail: [Gmail](gdushimimana6@gmail.com)
 
 ![happi's GitHub stats](https://github-readme-stats.vercel.app/api?username=gilberthappi&count_private=true&theme=dark&show_icons=true)
 
@@ -78,12 +78,10 @@ To get a local copy up and running follow these simple example steps.
 ![Mark GitHub stats](https://github-readme-stats.vercel.app/api?username=MarkYegon7&count_private=true&theme=dark&show_icons=true)
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Add Reservation
->Add Online play mode
->Add Night/Day mode
-
 - [ ] **Sign up online**
+- [ ] **Add Reservation**
+- [ ] **Add Online play mode**
+- [ ] **Add Night/Day mode**
 - [ ] **Newsletter Email**
 - [ ] **Payment methods**
 
