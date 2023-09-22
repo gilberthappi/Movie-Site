@@ -2,99 +2,52 @@
 const movies = require("./__mock__/countMovies.js");
 const comments = require("./__mock__/countComment.js");
 
-const firstTestArray = ["a", "b", "c", "d", "e", "f", "g", "h"];
-const secondTestArray = ["a", "b", "c"];
-const thirdTestArray = ["a", "b", "c", "d", "e"];
-
-// Count movies
-
-describe("1. Should test Number of movies", () => {
-  test("First array test", () => {
-    expect(movies(firstTestArray)).toBe(8);
+// Test suite
+describe('movies function', () => {
+  // Test case 1: Testing an empty array
+  test('should return 0 for an empty array', () => {
+    const arr = [];
+    const result = movies(arr);
+    expect(result).toBe(0);
   });
-  test("Second array test", () => {
-    expect(movies(secondTestArray)).toBe(3);
+
+  // Test case 2: Testing an array with one element
+  test('should return 1 for an array with one element', () => {
+    const arr = ['Movie 1'];
+    const result = movies(arr);
+    expect(result).toBe(1);
   });
-  test("Third array test", () => {
-    expect(movies(thirdTestArray)).toBe(5);
+
+  // Test case 3: Testing an array with multiple elements
+  test('should return the number of elements in the array', () => {
+    const arr = ['Movie 1', 'Movie 2', 'Movie 3'];
+    const result = movies(arr);
+    expect(result).toBe(arr.length);
   });
 });
 
 // Count comments
 
-const firstCommentList = [
-  {
-    username: "Chris",
-    comment: "I like This",
-  },
-  {
-    username: "Bruk",
-    comment: "I like This",
-  },
-  {
-    username: "Siku",
-    comment: "I like This",
-  },
-  {
-    username: "Teshome",
-    comment: "I like This",
-  },
-  {
-    username: "Mohamed",
-    comment: "I like This",
-  },
-  {
-    username: "Amos",
-    comment: "I like This",
-  },
-];
-
-const secondCommentList = [
-  {
-    username: "Jane Doe",
-    comment: "I like This",
-  },
-  {
-    username: "Sam",
-    comment: "I like This",
-  },
-  {
-    username: "John",
-    comment: "I like This",
-  },
-  {
-    username: "Ruth",
-    comment: "I like This",
-  },
-  {
-    username: "Mary",
-    comment: "I like This",
-  },
-];
-
-const thirdCommentList = [
-  {
-    username: "Jane",
-    comment: "I like This",
-  },
-  {
-    username: "Ruth",
-    comment: "I like This",
-  },
-  {
-    username: "Mary",
-    comment: "I like This",
-  },
-];
-
-describe("2. Should test the number of comments on each movie", () => {
-  test("Test Number of comments in first comment list", () => {
-    expect(comments(firstCommentList)).toBe(6);
+// Test suite
+describe('comments function', () => {
+  // Test case 1: Testing an empty comment list
+  test('should return 0 for an empty comment list', () => {
+    const commentList = [];
+    const result = comments(commentList);
+    expect(result).toBe(0);
   });
-  test("Test Number of comments in second comment list", () => {
-    expect(comments(secondCommentList)).toBe(5);
+
+  // Test case 2: Testing a comment list with one comment
+  test('should return 1 for a comment list with one comment', () => {
+    const commentList = ['This is a comment'];
+    const result = comments(commentList);
+    expect(result).toBe(1);
   });
-  test("Test Number of comments in third comment list", () => {
-    expect(comments(thirdCommentList)).toBe(3);
+
+  // Test case 3: Testing a comment list with multiple comments
+  test('should return the number of comments in the list', () => {
+    const commentList = ['Comment 1', 'Comment 2', 'Comment 3'];
+    const result = comments(commentList);
+    expect(result).toBe(commentList.length);
   });
 });

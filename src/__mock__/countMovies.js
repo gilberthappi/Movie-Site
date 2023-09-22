@@ -1,5 +1,5 @@
 const movies = (arr) => {
-  let length;
+  let length = 0;
   arr.forEach((element, i) => {
     length = i + 1;
   });

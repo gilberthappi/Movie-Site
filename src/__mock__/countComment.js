@@ -1,5 +1,5 @@
 const comments = (commentList) => {
-  let counter;
+  let counter = 0;
   commentList.forEach((comment, index) => {
     counter = index + 1;
   });
