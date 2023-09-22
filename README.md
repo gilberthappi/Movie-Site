@@ -21,7 +21,7 @@
 - Library : `Jest` 
 - Technologies used : Github, Git and Linters
 
-## Live Demo (not avialable)
+## Live Demo 
 
 https://gilberthappi.github.io/Movie-Site/dist
 
