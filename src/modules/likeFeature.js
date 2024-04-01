@@ -17,5 +17,4 @@ const likeMovie = async () => {
     });
   });
 };
-
 export default likeMovie;
