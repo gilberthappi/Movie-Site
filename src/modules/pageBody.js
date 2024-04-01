@@ -172,4 +172,5 @@ const renderMovies = async () => {
   counter.style.color = 'red';
 };
 
+
 export default renderMovies;
