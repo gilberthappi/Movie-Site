@@ -8,5 +8,4 @@ const fetchFromApi = async () => {
     });
   return moviesArray;
 };
-
 export default fetchFromApi;
