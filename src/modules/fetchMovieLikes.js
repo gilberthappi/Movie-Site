@@ -11,5 +11,4 @@ const fetchMovieLikes = async () => {
     });
   return likedItems;
 };
-
 export default fetchMovieLikes;
