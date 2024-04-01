@@ -15,7 +15,7 @@
 
 ## Built With
 
-- Major languages : JavaScript (ES6 syntax), HTLM and CSS
+- Major languages : JavaScript (ES6 syntax), HTML and CSS
 - Frameworks : none
 - Module bundler : `webpack`
 - Library : `Jest` 
@@ -69,13 +69,6 @@ To get a local copy up and running follow these simple example steps.
 
 ![happi's GitHub stats](https://github-readme-stats.vercel.app/api?username=gilberthappi&count_private=true&theme=dark&show_icons=true)
 
-👤 **Mark yegon**
-
-- GitHub: [@githubhandle](https://github.com/MarkYegon7)
-- Twitter: [@twitterhandle](https://twitter.com/)
-- Gmail: [Gmail](markyegonk@gmail.com)
-
-![Mark GitHub stats](https://github-readme-stats.vercel.app/api?username=MarkYegon7&count_private=true&theme=dark&show_icons=true)
 
 ## 🔭 Future Features <a name="future-features"></a>
 - [ ] **Sign up online**
