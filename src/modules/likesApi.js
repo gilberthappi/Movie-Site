@@ -11,5 +11,4 @@ const postLike = (movies) => {
     },
   );
 };
-
 export default postLike;
