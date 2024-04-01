@@ -1,3 +1,4 @@
+
 const comments = (commentList) => {
   let counter = 0;
   commentList.forEach((comment, index) => {
