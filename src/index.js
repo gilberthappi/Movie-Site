@@ -1,3 +1,4 @@
+
 import './css/style.css';
 import renderMovies from './modules/pageBody.js';
 import likeMovie from './modules/likeFeature.js';
